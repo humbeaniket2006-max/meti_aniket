@@ -142,17 +142,17 @@ body.hov #cur-dot{transform:translate(-50%,-50%) scale(1.4);background:var(--acc
 .proj-hdr h2{font-family:var(--serif);font-size:clamp(30px,4vw,52px);font-weight:900;line-height:.95;color:var(--fg)}
 .proj-hdr h2 em{font-style:italic;color:var(--muted2)}
 .proj-carousel{position:relative}
-.proj-track-wrap{overflow:visible;min-height:610px;padding:44px 0 28px;perspective:1400px}
-.proj-track{position:relative;height:560px;max-width:1280px;margin:0 auto;transition:none;will-change:auto}
-.proj-card{width:min(430px,42vw);min-width:280px;min-height:520px;height:560px;border:1px solid rgba(15,14,11,.12);background:var(--card);padding:0;display:flex;flex-direction:column;justify-content:space-between;position:absolute;top:0;left:calc(50% - 520px);transform-style:preserve-3d;cursor:pointer;opacity:.95;box-shadow:0 18px 45px rgba(15,14,11,.07);z-index:calc(40 - var(--stack-i,0));transform:translate(calc(var(--stack-i,0) * 18px),calc(var(--stack-i,0) * 18px)) scale(calc(1 - var(--stack-i,0) * .035));transition:transform .68s cubic-bezier(.16,1,.3,1),box-shadow .45s,border-color .35s,opacity .35s,filter .35s}
+.proj-track-wrap{overflow:visible;min-height:690px;padding:44px 0 28px;perspective:1400px}
+.proj-track{position:relative;height:640px;max-width:1460px;margin:0 auto;transition:none;will-change:auto}
+.proj-card{width:min(560px,44vw);min-width:320px;min-height:600px;height:640px;border:1px solid rgba(15,14,11,.12);background:var(--card);padding:0;display:flex;flex-direction:column;justify-content:space-between;position:absolute;top:0;left:calc(50% - 660px);transform-style:preserve-3d;cursor:pointer;opacity:.95;box-shadow:0 18px 45px rgba(15,14,11,.07);z-index:calc(40 - var(--stack-i,0));transform:translate(calc(var(--stack-i,0) * 18px),calc(var(--stack-i,0) * 18px)) scale(calc(1 - var(--stack-i,0) * .035));transition:transform .68s cubic-bezier(.16,1,.3,1),box-shadow .45s,border-color .35s,opacity .35s,filter .35s}
 .proj-card-lead{border-color:rgba(26,122,60,.4)}
 .proj-card-lead .pc-badge{background:rgba(26,122,60,.14);border-color:rgba(26,122,60,.4)}
 .proj-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(to right,var(--accent),var(--accent2));transform:scaleX(0);transform-origin:left;transition:transform .4s}
 .proj-card:hover{box-shadow:0 20px 55px rgba(15,14,11,.11);border-color:rgba(26,122,60,.2)}
 .proj-card-lead:hover{border-color:rgba(26,122,60,.4)}
-.proj-card.active{z-index:80;opacity:1;filter:none;border-color:rgba(26,122,60,.28);box-shadow:0 34px 90px rgba(15,14,11,.18);transform:translateX(560px) translateY(22px) scale(1.02)}
+.proj-card.active{z-index:80;opacity:1;filter:none;border-color:rgba(26,122,60,.28);box-shadow:0 34px 90px rgba(15,14,11,.18);transform:translateX(700px) translateY(22px) scale(1.02)}
 .proj-card.inactive{filter:saturate(.9);box-shadow:0 16px 35px rgba(15,14,11,.08)}
-.proj-card.flipped,.proj-card.flipped:hover{transform:translateX(min(52vw,560px)) translateY(22px) scale(1.02)}
+.proj-card.flipped,.proj-card.flipped:hover{transform:translateX(min(54vw,700px)) translateY(22px) scale(1.02)}
 .proj-card:hover::before{transform:scaleX(1)}
 /* carousel controls */
 .proj-controls{display:flex;align-items:center;justify-content:center;gap:20px;margin-top:32px}
